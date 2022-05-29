@@ -1,0 +1,28 @@
+%hoverImage {
+    .products__description {
+        visibility: visible;
+    }
+
+    i {
+        visibility: visible;
+        font-weight: 700;
+    }
+}
+
+%description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    width: 270px;
+    height: 90px;
+    background-color: rgba(white, 0.5);
+    font-size: 15px;
+    visibility: hidden;
+    transition: all ease 0.2ms;
+    padding-left: 13px;
+    div:first-child {
+        font-weight: 700;
+        padding-bottom: 6px;
+    }
+}
